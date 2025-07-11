@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.tool-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #dcdcdc;
+}
+
+.nav-button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Modo oscuro */
+.navbar.dark {
+    background-color: #333;
+}
+
+.navbar.dark .nav-button {
+    background-color: #444;
+    color: white;
+    border-color: #666;
+}
+
+.navbar.dark .nav-button.active {
+    background-color: #4CAF50;
+    color: white;
+}
