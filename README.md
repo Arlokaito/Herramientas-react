@@ -1,70 +1,132 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🧰 Herramientas React
 
-## Available Scripts
+Esta es una aplicación web desarrollada en **React** que agrupa múltiples herramientas de utilidad diaria en una sola interfaz. Fue diseñada como un proyecto práctico para aprender y aplicar conceptos modernos de React, incluyendo **hooks**, **manejo de estado**, **localStorage**, **modo oscuro**, y **despliegue en GitHub Pages**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Características principales
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La aplicación incluye una **barra de navegación** que permite cambiar entre las siguientes herramientas:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **🧮 Calculadora**
+   - Soporta operaciones básicas, porcentajes, paréntesis y teclado.
+   - Prevención de errores con operadores duplicados.
 
-### `npm test`
+2. **📝 To-Do List**
+   - Agregar tareas con Enter o botón.
+   - Enumeración automática de tareas con ID reutilizable.
+   - Marcar tareas como completadas (se reordenan al final).
+   - Reordenar tareas con drag & drop.
+   - Ordenar lista ascendente/descendente.
+   - Guardado persistente con `localStorage`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **🔐 Generador de Contraseñas**
+   - Genera contraseñas aleatorias.
+   - Permite guardar, copiar y eliminar contraseñas.
+   - Historial persistente con `localStorage`.
 
-### `npm run build`
+4. **🔄 Conversor de Unidades**
+   - (En desarrollo) Conversión entre pesos y distancias.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. **🌙 Modo Oscuro / Claro**
+   - Se puede alternar desde la barra de navegación.
+   - Afecta a toda la interfaz visual (calculadora, to-do, contraseñas, etc.).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tecnologías utilizadas
 
-### `npm run eject`
+- **React** (con `create-react-app`)
+- **JavaScript (ES6+)**
+- **HTML / CSS**
+- **GitHub Pages** (para despliegue)
+- **localStorage** (para persistencia)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Estructura del proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+Herramientas-react/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Calculadora.jsx
+│   │   ├── Conversor.jsx
+│   │   ├── GeneradorContrasenia.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Todolist.jsx
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+├── README.md
+└── .gitignore
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📜 Scripts disponibles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+En la raíz del proyecto, puedes ejecutar:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Comando              | Descripción                                        |
+|----------------------|----------------------------------------------------|
+| `npm start`          | Inicia el servidor de desarrollo (`localhost:3000`) |
+| `npm run build`      | Crea una versión optimizada del proyecto           |
+| `npm run deploy`     | Despliega la app en GitHub Pages                   |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📦 Instalación y uso local
 
-### Analyzing the Bundle Size
+> Requiere tener instalado **Node.js** y **npm**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clona el repositorio:
 
-### Making a Progressive Web App
+   ```bash
+   git clone https://github.com/Arlokaito/Herramientas-react.git
+   cd Herramientas-react
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Instala las dependencias:
 
-### Advanced Configuration
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Inicia la aplicación en modo desarrollo:
 
-### Deployment
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🌐 Despliegue en producción
+
+La aplicación está desplegada en:
+
+🔗 [https://arlokaito.github.io/Herramientas-react](https://arlokaito.github.io/Herramientas-react)
+
+El despliegue se realiza mediante el paquete `gh-pages` y el script `npm run deploy`.
+
+---
+
+## 📌 Estado actual
+
+- Calculadora: ✅
+- To-Do List: ✅
+- Generador de Contraseñas: ✅
+- Conversor: 🛠️ En desarrollo
+- Modo Oscuro: ✅
+
+---
+
+## ✍️ Autor
+
+- **Carlos Estrada** – Proyecto educativo y personal.
