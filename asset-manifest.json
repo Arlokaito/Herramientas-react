@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Arlokaito/Herramientas-react.git/static/css/main.7347f2ff.css",
-    "main.js": "/Arlokaito/Herramientas-react.git/static/js/main.f39f511e.js",
-    "static/js/453.21eab57a.chunk.js": "/Arlokaito/Herramientas-react.git/static/js/453.21eab57a.chunk.js",
-    "index.html": "/Arlokaito/Herramientas-react.git/index.html",
-    "main.7347f2ff.css.map": "/Arlokaito/Herramientas-react.git/static/css/main.7347f2ff.css.map",
-    "main.f39f511e.js.map": "/Arlokaito/Herramientas-react.git/static/js/main.f39f511e.js.map",
-    "453.21eab57a.chunk.js.map": "/Arlokaito/Herramientas-react.git/static/js/453.21eab57a.chunk.js.map"
+    "main.css": "/Arlokaito/Herramientas-react/static/css/main.7347f2ff.css",
+    "main.js": "/Arlokaito/Herramientas-react/static/js/main.05568f75.js",
+    "static/js/453.21eab57a.chunk.js": "/Arlokaito/Herramientas-react/static/js/453.21eab57a.chunk.js",
+    "index.html": "/Arlokaito/Herramientas-react/index.html",
+    "main.7347f2ff.css.map": "/Arlokaito/Herramientas-react/static/css/main.7347f2ff.css.map",
+    "main.05568f75.js.map": "/Arlokaito/Herramientas-react/static/js/main.05568f75.js.map",
+    "453.21eab57a.chunk.js.map": "/Arlokaito/Herramientas-react/static/js/453.21eab57a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7347f2ff.css",
-    "static/js/main.f39f511e.js"
+    "static/js/main.05568f75.js"
   ]
 }
