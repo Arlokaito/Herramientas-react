@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Arlokaito/Herramientas-react/static/css/main.7347f2ff.css",
-    "main.js": "/Arlokaito/Herramientas-react/static/js/main.05568f75.js",
-    "static/js/453.21eab57a.chunk.js": "/Arlokaito/Herramientas-react/static/js/453.21eab57a.chunk.js",
-    "index.html": "/Arlokaito/Herramientas-react/index.html",
-    "main.7347f2ff.css.map": "/Arlokaito/Herramientas-react/static/css/main.7347f2ff.css.map",
-    "main.05568f75.js.map": "/Arlokaito/Herramientas-react/static/js/main.05568f75.js.map",
-    "453.21eab57a.chunk.js.map": "/Arlokaito/Herramientas-react/static/js/453.21eab57a.chunk.js.map"
+    "main.css": "/Herramientas-react/static/css/main.7347f2ff.css",
+    "main.js": "/Herramientas-react/static/js/main.629e4b1e.js",
+    "static/js/453.21eab57a.chunk.js": "/Herramientas-react/static/js/453.21eab57a.chunk.js",
+    "index.html": "/Herramientas-react/index.html",
+    "main.7347f2ff.css.map": "/Herramientas-react/static/css/main.7347f2ff.css.map",
+    "main.629e4b1e.js.map": "/Herramientas-react/static/js/main.629e4b1e.js.map",
+    "453.21eab57a.chunk.js.map": "/Herramientas-react/static/js/453.21eab57a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7347f2ff.css",
-    "static/js/main.05568f75.js"
+    "static/js/main.629e4b1e.js"
   ]
 }
